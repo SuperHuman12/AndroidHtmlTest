@@ -1,0 +1,60 @@
+body {
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 100%;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+div {
+    color: red;
+}
+
+.arrow {
+    height: 80px;
+    width: 50px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.showpic {
+    width: 1024px;
+    height: 768px;
+    max-width: 1024px;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    background: #00B7FF;
+    overflow: hidden;
+}
+
+.showpic img {
+    MAX-WIDTH: 100% !important;
+    HEIGHT: auto !important;
+}
+
+.notshowpic {
+    display: block;
+}
+
+#showpicframe {
+    overflow: hidden;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 100%;
+    background: grey;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+}
+
+#browserlike {
+
+    width: 1024px;
+    overflow: hidden;
+    height: 100%;
+    background: #9acd32;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+}
